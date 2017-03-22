@@ -264,6 +264,10 @@ PRODUCT_PACKAGES += \
     init.qcom.bt.sh \
     ueventd.qcom.rc
 
+# Init
+PRODUCT_PACKAGES += \
+    libinit_z2_plus
+
 # RIL
 PRODUCT_PACKAGES += \
     librmnetctl \
